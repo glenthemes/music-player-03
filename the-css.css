@@ -1,0 +1,72 @@
+/*-------MUSIC PLAYER BY GLENTHEMES-------*/
+#glenplayer03 {
+    position:fixed;
+    bottom:0;margin-bottom:0px; /* music player position from bottom */
+    left:0;margin-left:60px; /* music player position from left */
+    font-family:karla;
+    z-index:99;
+}
+.glen-box-title {
+    padding:12px 15px;
+    background-color:#222; /* music player title background color */
+    border-radius:12px 12px 0px 0px;
+    text-transform:uppercase;
+    letter-spacing:1.5px;
+    font-size:10px;
+    color:#fff; /* music player title text color */
+    line-height:1.8em;
+    text-align:center;
+}
+
+.glen-music-container {
+    padding:20px;
+    background-color:#fff; /* music player background color */
+    border-left:1px solid #eee; /* music player left border */
+    border-right:1px solid #eee; /* music player right border  */
+}
+
+.glen-row {
+    display:flex;
+    margin-bottom:15px;
+}
+
+.glen-row > * {
+    align-self:center;
+    -webkit-align-self:center;
+}
+
+.glen-row:last-of-type {margin-bottom:0px;}
+
+.glen-album-art {
+    width:40px;
+    height:40px;
+    border-radius:3px;
+}
+
+.glen-song-text {
+    margin-left:15px;
+    min-width:130px; /* minimum width of song info */
+    width:100%;
+}
+
+.gst-name {
+    font-size:12px;
+    color:#444; /* song name text color */
+}
+
+.gst-artist {
+    text-transform:uppercase;
+    letter-spacing:0.3px;
+    font-size:10px;
+    color:#999; /* song artist text color */
+}
+
+.gst.material-icons {
+    margin-left:15px;
+    font-size:18px;
+    color:#222; /* play & pause buttons color */
+    cursor:pointer;
+}
+
+.g3-before {display:none!important;}
+.g3-after {display:block!important;}
